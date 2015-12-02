@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=100%">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="JIS Tech Club" content="">
 <!--Favicon Code-->
 
 <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -53,7 +53,7 @@
     <div class="navbar-wrapper">
       <div class="container">
 
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -67,34 +67,35 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
 
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="#" style="text-decoration: none">Home</a></li>
 
-                <li><a href="sub.html">Submissions</a></li>
+                <li><a href="sub.html" style="text-decoration: none">Submissions</a></li>
 
                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Genres<span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="text-decoration: none">Genres<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="narrative.html">Narrative</a></li>
-                    <li><a href="doc.html">Documentary</a></li>
-                    <li><a href="animation.html">Animation</a></li>
-                    <li><a href="music_video.html">Music Video</a></li>
+                    <li><a href="narrative.html" style="text-decoration: none">Narrative</a></li>
+                    <li><a href="doc.html" style="text-decoration: none">Documentary</a></li>
+                    <li><a href="animation.html" style="text-decoration: none">Animation</a></li>
+                    <li><a href="music_video.html" style="text-decoration: none">Music Video</a></li>
                   </ul>
                 </li>
 
                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Judges<span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="text-decoration: none">Judges<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="judges.html">2016</a></li>
+                    <li><a href="judges.html" style="text-decoration: none">2016</a></li>
                   </ul>
                 </li>
 
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Winners<span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="text-decoration: none">Winners<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="winners.html">2016</a></li>
+                    <li><a href="winners.html" style="text-decoration: none">2016</a></li>
                   </ul>
-
                 </li>
+
+
               </ul>
             </div>
           </div>
@@ -250,6 +251,7 @@
 
 
     </div><!-- /.container -->
+    
     <pre id='results'></pre>
 
     <!-- Bootstrap core JavaScript
@@ -260,7 +262,7 @@
 
     <script type="text/javascript">
         function myFunc(json) {
-          alert("Successfully processed!")
+          //alert("Successfully processed!")
           console.log(json);
         }
     </script>
