@@ -43,7 +43,7 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
 
   </head>
@@ -66,35 +66,34 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-               
+
                 <li class="active"><a href="#">Home</a></li>
-               
-                <li><a href="#submissions">Submissions</a></li>
-                
+
+                <li><a href="sub.html">Submissions</a></li>
+
                <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Genres<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#genres/narrative">Narrative</a></li>
-                    <li><a href="#genres/documentary">Documentary</a></li>
-                    <li><a href="#genres/animation">Animation</a></li>
-                    <li><a href="#genres/music_video">Music Video</a></li>
+                    <li><a href="narrative.html">Narrative</a></li>
+                    <li><a href="doc.html">Documentary</a></li>
+                    <li><a href="animation.html">Animation</a></li>
+                    <li><a href="music_video.html">Music Video</a></li>
                   </ul>
                 </li>
 
                <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Judges<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#judges/2016">2016</a></li>
+                    <li><a href="judges.html">2016</a></li>
                   </ul>
                 </li>
 
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Winners<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#winners/2016">2016</a></li>
+                    <li><a href="winners.html">2016</a></li>
                   </ul>
-                  
-                  <li><a href="#festival_details">Festival Details</a></li>
+
                 </li>
               </ul>
             </div>
@@ -130,7 +129,7 @@
           <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              
+
              <p style="text-align:center;"> <img src="images/carousel1.jpg" max-width="30%"> </p>
 
             <!--
@@ -248,13 +247,23 @@
         <p style="text-align:center;"><a href="#">Back to Top</a></p>
       </footer>
 
-    </div><!-- /.container -->
 
+
+    </div><!-- /.container -->
+    <pre id='results'></pre>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        function myFunc(json) {
+          alert("Successfully processed!")
+          console.log(json);
+        }
+    </script>
+    <script type="text/javascript" src="http://spreadsheets.google.com/feeds/cells/1THNVmcvpqFH6i2C5HsQdH_nS_4DNuIE-Nvz7Y9mnOqI/od6/public/basic?alt=json-in-script&callback=myFunc"></script>
   </body>
 </html>
