@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Bootstrap](http://getbootstrap.com)
 
 [![Slack](https://bootstrap-slack.herokuapp.com/badge.svg)](https://bootstrap-slack.herokuapp.com)
@@ -137,3 +138,7 @@ See [the Releases section of our GitHub project](https://github.com/twbs/bootstr
 ## Copyright and license
 
 Code and documentation copyright 2011-2015 Twitter, Inc. Code released under [the MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/twbs/bootstrap/blob/master/docs/LICENSE).
+=======
+# This is the shared repository for the website of the *2016 JIS Film Festival*
+© JIS Tech Club 2015-16
+>>>>>>> origin/master
