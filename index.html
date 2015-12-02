@@ -257,5 +257,13 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        function myFunc(json) {
+          alert("Successfully processed!")
+          console.log(json);
+        }
+    </script>
+    <script type="text/javascript" src="http://spreadsheets.google.com/feeds/cells/1THNVmcvpqFH6i2C5HsQdH_nS_4DNuIE-Nvz7Y9mnOqI/od6/public/basic?alt=json-in-script&callback=myFunc"></script>
   </body>
 </html>
