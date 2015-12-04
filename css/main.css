@@ -1,5 +1,9 @@
 /*Styles added by JIS Tech Club */
-
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
 a{
   text-decoration:none;
 }
