@@ -1,5 +1,31 @@
 /*Styles added by JIS Tech Club */
 
+img {
+  max-width: 100%;
+  width: auto 9;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+a{
+  text-decoration:none;
+}
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-bottom: 40px;
+    color: #101d2a;
+}
+
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -128,6 +154,7 @@
 }
 
 
+
 /* Featurettes
 ------------------------- */
 
@@ -141,8 +168,6 @@
     line-height: 1;
     letter-spacing: -1px;
 }
-
-
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -160,9 +185,11 @@
         padding-left: 0;
     }
 
-    /* The navbar becomes detached from the top, so we round the corners */
+    /* STRAIGHT EDGES */
     .navbar-wrapper .navbar {
         border-radius: 0px;
+        border:none;
+        box-shadow:none;
     }
 
     /* Bump up size of carousel content */
