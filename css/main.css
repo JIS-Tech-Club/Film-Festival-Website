@@ -11,7 +11,9 @@ body{
 .content{
   width:90%;
   margin: auto;
+  padding-top: 0px;
   padding-left: 10px;
+  background-color: white;
 }
 img {
   max-width: 100%;
@@ -21,7 +23,9 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
-
+.col-lg-4{
+  text-align: center;
+}
 a{
   text-decoration:none;
 }
@@ -140,7 +144,7 @@ footer{
 /* Carousel base class */
 .carousel {
     height: 500px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
