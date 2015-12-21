@@ -51,42 +51,51 @@
 		<!-- BODY -->
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+<div class="navbar-wrapper">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
 
-           <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <div class="navbar-brand" href="#"><img src="images/superlogo.png"  alt="JIS Film Fest Nav Logo" height="100" width="200" padding-right="0px"></div>
-            </div>
+                <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <div class="navbar-brand" href="#"><img src="images/superlogo.png"  alt="JIS Film Fest Nav Logo" height="100" width="200" padding-right="0px"></div>
+                    </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#talent-exchange">Talent Exchange</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div id="navbar-left" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                            <li class>
+                                <a class="page-scroll" href="#intro" style="text-decoration: none">Home</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#about">About</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#talent-exchange">Talent Exchange</a>
+                            </li>
+                            <li>
+                                <a class="page-scroll" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container -->
+            </nav>
         </div>
-        <!-- /.container -->
-    </nav>
+    </div>
+
+
+<!--Content-->
+
   <div class="container content">
+
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
         <div class="container">
@@ -95,7 +104,7 @@
                     <h1 class="section-header">JIS Film Festival</h1>
                         <video height="400" width="600">
                     <h1>JIS Film Festival</h1>
-                        <video height="400" width="600" controls autoplay>
+                        <video height="400" width="600" controls>
                             <source src="film_fest_promo.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
