@@ -3,11 +3,6 @@ body {
   padding-top: 100px;
   padding-bottom: 20px;
 }
-body{
-  background-color: transparent;
-  background-image: url("../images/tile.png");
-  background-repeat: repeat;
-}
 .content{
   width:90%;
   margin: auto;
@@ -42,6 +37,7 @@ body {
 
 .section-header{
   color: #ffd700;
+  padding-bottom: 50px;
 }
 
 footer{

@@ -37,21 +37,21 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 125px;
     text-align: center;
     background: #101d2a;
 }
 
 .talent-exchange-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 125px;
     text-align: center;
     background: #101d2a;
 }
 
 .contact-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 125px;
     text-align: center;
     background: #101d2a;
 }
