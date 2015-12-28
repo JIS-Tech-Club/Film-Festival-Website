@@ -41,9 +41,23 @@ body {
   padding-bottom: 50px;
 }
 
-.modal-header,.modal-footer,.modal-body{
+.modal-header,.modal-footer,.modal-body,.modal-content{
   background-color: #101d2a;
   border-color: #101d2a;
+}
+
+iframe{
+  border-width: 0;
+}
+
+.close {
+    color: #ffffff; 
+    opacity: 1;
+}
+
+.close:hover, .close:focus{
+    color: #ffd700; 
+    opacity: 1;
 }
 
 /* CUSTOMIZE THE NAVBAR
