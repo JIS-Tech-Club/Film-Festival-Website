@@ -35,6 +35,10 @@ body {
 
 }
 
+h4{
+  color: #ffd700;
+}
+
 .section-header{
   color: #ffd700;
   padding-bottom: 50px;
@@ -50,12 +54,12 @@ iframe{
 }
 
 .close {
-    color: #ffffff; 
+    color: #ffffff;
     opacity: 1;
 }
 
 .close:hover, .close:focus{
-    color: #ffd700; 
+    color: #ffd700;
     opacity: 1;
 }
 
