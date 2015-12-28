@@ -35,13 +35,13 @@ body {
 
 }
 
-h4{
+h2,h4{
   color: #ffd700;
 }
 
 .section-header{
   color: #ffd700;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .modal-header,.modal-footer,.modal-body,.modal-content{
