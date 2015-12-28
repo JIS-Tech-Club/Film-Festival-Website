@@ -7,28 +7,46 @@
     <meta name="author" content="">
 
     <title>Experiences | JIS Film Fest 2016</title>
-    <script type='text/javascript'>
 
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+
+    <script type='text/javascript'>
         function displayContent(json) {
             var len = parseInt(json.feed.entry.length)
 
             var Messages_Table=''
 
-            for (var i=0; i<len; i++) {
+            /*for (var i=4; i<len; i+=4) {
                 Messages_Table += [
                     '<tr style="border-bottom: 1px dashed black"><td width="10%">',
-                    json.feed.entry[i].gsx$to.$t,
+                    json.feed.entry[i].content.$t,
                     '</td><td width="70%">',
-                    json.feed.entry[i].gsx$message.$t,
+                    json.feed.entry[i+3].content.$t,
                     '</td><td width="15%">',
-                    json.feed.entry[i].gsx$location.$t,
+                    json.feed.entry[i+1].content.$t,
                     '</td><td width="15%">',
-                    json.feed.entry[i].gsx$from.$t,
+                    json.feed.entry[i+2].content.$t,
+                    '</td></tr>',
+                ].join('');
+            }*/
+            for (var i=len-1; i>=4; i-=4) {
+                Messages_Table += [
+                    '<tr style="border-bottom: 1px dashed black"><td width="10%">',
+                    json.feed.entry[i-3].content.$t,
+                    '</td><td width="70%">',
+                    json.feed.entry[i].content.$t,
+                    '</td><td width="15%">',
+                    json.feed.entry[i-2].content.$t,
+                    '</td><td width="15%">',
+                    json.feed.entry[i-1].content.$t,
                     '</td></tr>',
                 ].join('');
             }
 
-            document.getElementById('Messages-Table').innerHTML = '<table style="text-align:center;"><tbody>' + Messages_Table + '</tbody></table>';
+              document.getElementById('Messages-Table').innerHTML = '<table style="text-align:center;font-family: Gloria Hallelujah"><tbody>' + Messages_Table + '</tbody></table>';
+
             }
     </script>
   </head>
@@ -36,8 +54,8 @@
 
       <div class="table-responsive" id="Messages-Table"></div>
 
-      <!---JS--->
-
+      <!---Mo--->
+      <script src="js/moment.min.js" type="text/javascript"></script>
       <script src="https://spreadsheets.google.com/feeds/cells/1vBH5WTr-lsz8xbblWksWc8JF6Od0w3vZjO-6SQrDjbY/1/public/values?alt=json-in-script&amp;callback=displayContent" type="text/javascript"></script>
   </body>
 </html>
