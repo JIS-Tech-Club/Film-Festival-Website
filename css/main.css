@@ -41,8 +41,9 @@ body {
   padding-bottom: 50px;
 }
 
-.modal-header,.modal-footer{
-  background-color: #101d2a
+.modal-header,.modal-footer,.modal-body{
+  background-color: #101d2a;
+  border-color: #101d2a;
 }
 
 /* CUSTOMIZE THE NAVBAR
