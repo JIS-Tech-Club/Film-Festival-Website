@@ -3,6 +3,9 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+navbar-inverse{
+    border-color: transparent !important;
+}
 
 body {
     width: 100%;
@@ -31,28 +34,28 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 100px;
     text-align: center;
     background: #101d2a;
 }
 
 .about-section {
     height: 100%;
-    padding-top: 125px;
+    padding-top: 100px;
     text-align: center;
     background: #101d2a;
 }
 
 .talent-exchange-section {
     height: 100%;
-    padding-top: 125px;
+    padding-top: 100px;
     text-align: center;
     background: #101d2a;
 }
 
 .contact-section {
     height: 100%;
-    padding-top: 125px;
+    padding-top: 100px;
     text-align: center;
     background: #101d2a;
 }
