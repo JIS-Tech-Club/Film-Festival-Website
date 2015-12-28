@@ -86,7 +86,7 @@ color:#101d2a;
 }
 /***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
 .btn-primary:hover, .btn-primary:focus{
-background-color :#ffd700; /* you could make the background a little darker if you wanted*/
+background-color :#ffffff; /* you could make the background a little darker if you wanted*/
 /*style text*/
 color: #101d2a;
 /*reduce the drop shadow size to give a pushed button effect*/
