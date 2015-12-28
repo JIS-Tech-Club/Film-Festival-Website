@@ -41,8 +41,8 @@ body {
   padding-bottom: 50px;
 }
 
-footer{
-
+.modal-header,.modal-footer{
+  background-color: #1012da
 }
 
 /* CUSTOMIZE THE NAVBAR
