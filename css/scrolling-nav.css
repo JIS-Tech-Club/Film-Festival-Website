@@ -62,7 +62,7 @@ of those sections to manage the look and feel of the site. */
 .navbar-inverse {
   background-color: #ffffff;
   color: #000000;
-  word-spacing: 20px;
+  word-spacing: 5px;
   text-align: center;
   letter-spacing: 5px;
 }
