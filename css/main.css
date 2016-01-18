@@ -22,7 +22,7 @@ img {
 }
 a{
   text-decoration:none;
-  color: #ffd700;
+  color: #000000;
 }
 /* Move down content because we have a fixed navbar that is 100px tall */
 
@@ -36,17 +36,17 @@ body {
 }
 
 h2,h4{
-  color: #ffd700;
+  color: #000000;
 }
 
 .section-header{
-  color: #ffd700;
+  color: #000000;
   padding-bottom: 30px;
 }
 
 .modal-header,.modal-footer,.modal-body,.modal-content{
-  background-color: #101d2a;
-  border-color: #101d2a;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 iframe{
@@ -90,7 +90,7 @@ iframe{
 
 
 .navbar-inverse {
-  background-color: #000000;
+  background-color: #ffffff;
   border-color: transparent !important;
 }
 
@@ -105,7 +105,7 @@ iframe{
 }
 
 .navbar-inverse .navbar-brand {
-  color: #fff;
+  color: #000000;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -120,14 +120,14 @@ iframe{
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fecd08;
-  background-color: #101d2a;
+  color: #000000;
+  background-color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #fecd08;
-  background-color: #101d2a;
+  color: #000000;
+  background-color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
@@ -152,8 +152,8 @@ iframe{
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  color: #fecd08;
-  background-color: #101d2a;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 

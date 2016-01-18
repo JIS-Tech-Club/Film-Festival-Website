@@ -11,7 +11,7 @@ body {
     height: 100%;
 
     padding-bottom: 40px;
-    color: #ffffff;
+    color: #000000;
 
 }
 
@@ -21,8 +21,8 @@ html {
 }
 
 footer{
-    color: #ffffff;
-    background-color: #101d2a;
+    color: #000000;
+    background-color: #ffffff;
 }
 
 
@@ -34,33 +34,37 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 0px;
     text-align: center;
-    background: #101d2a;
+    background: #ffffff;
 }
 
 .about-section {
     height: 100%;
     padding-top: 100px;
     text-align: center;
-    background: #101d2a;
+    background: #ffffff;
 }
 
 .talent-exchange-section {
     height: 100%;
     padding-top: 100px;
     text-align: center;
-    background: #101d2a;
+    background: #ffffff;
 }
 
 .contact-section {
     height: 100%;
     padding-top: 100px;
     text-align: center;
-    background: #101d2a;
+    background: #ffffff;
 }
 
 
 .navbar-inverse {
-  background-color: #000000;
+  background-color: #ffffff;
+  color: #000000;
+  word-spacing: 20px;
+  text-align: center;
+  letter-spacing: 5px;
 }
 
 .navbar-fixed-top{
