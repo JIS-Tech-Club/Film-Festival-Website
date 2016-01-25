@@ -45,12 +45,13 @@ h2,h4{
 }
 
 .modal-header,.modal-footer,.modal-body,.modal-content{
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background-color: #101d2a;
+  border-color: #101d2a;
 }
 
 iframe{
   border-width: 0;
+
 }
 
 .close {

@@ -75,7 +75,7 @@ border-width: 0;
 .btn-primary{
 cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
 padding:5px 25px; /*add some padding to the inside of the button*/
-background:#ffd700; /*the colour of the button*/
+background:#ffffff; /*the colour of the button*/
 border:1px solid #000000; /*required or the default border for the browser will appear*/
 /*give the button curved corners, alter the size as required*/
 -moz-border-radius: 10px;
@@ -90,7 +90,7 @@ color:#101d2a;
 }
 /***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
 .btn-primary:hover, .btn-primary:focus{
-background-color :#ffffff; /* you could make the background a little darker if you wanted*/
+background-color :#ffd700; /* you could make the background a little darker if you wanted*/
 /*style text*/
 color: #101d2a;
 /*reduce the drop shadow size to give a pushed button effect*/
