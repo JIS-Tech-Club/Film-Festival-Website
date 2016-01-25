@@ -33,19 +33,17 @@
             }*/
             for (var i=len-1; i>=4; i-=4) {
                 Messages_Table += [
-                    '<tr style="border-bottom: 1px dashed black"><td width="10%">',
-                    json.feed.entry[i-3].content.$t,
-                    '</td><td width="70%">',
+                    '<tr style="border-bottom: 1px dashed black"><td width="30%">',
                     json.feed.entry[i].content.$t,
-                    '</td><td width="15%">',
+                    '</td><td width="40%">',
                     json.feed.entry[i-2].content.$t,
-                    '</td><td width="15%">',
+                    '</td><td width="30%">',
                     json.feed.entry[i-1].content.$t,
                     '</td></tr>',
                 ].join('');
             }
 
-              document.getElementById('Messages-Table').innerHTML = '<table style="text-align:center;font-family: Gloria Hallelujah"><tbody>' + Messages_Table + '</tbody></table>';
+              document.getElementById('Messages-Table').innerHTML = '<table width="100%" style="text-align:center;font-family: Helvetica"><tbody>' + Messages_Table + '</tbody></table>';
 
             }
     </script>
