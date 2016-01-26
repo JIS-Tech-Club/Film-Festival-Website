@@ -23,6 +23,18 @@ html {
 footer{
     color: #000000;
     background-color: #ffffff;
+    padding-top: 100px;
+}
+.footer{
+    padding-top: 100px;
+}
+/*trying to style the links but not working. Please check*/
+a{
+    outline-color: #ffd700;
+}
+
+.a:hover{
+    color:#101d2a;
 }
 
 
@@ -44,6 +56,13 @@ of those sections to manage the look and feel of the site. */
     background: #ffffff;
 }
 
+.submissions-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #ffffff;
+}
+
 .talent-exchange-section {
     height: 100%;
     padding-top: 100px;
@@ -53,10 +72,11 @@ of those sections to manage the look and feel of the site. */
 
 .contact-section {
     height: 100%;
-    padding-top: 100px;
+    padding-top: 200px;
     text-align: center;
     background: #ffffff;
 }
+
 
 
 .navbar-inverse {
