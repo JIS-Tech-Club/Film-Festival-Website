@@ -13,33 +13,25 @@ body {
     padding-bottom: 40px;
     color: #000000;
 
-    font: "Helvetica";
 
 }
 
 html {
     width: 100%;
     height: 100%;
-    font: "Helvetica";
 }
 
 footer{
     color: #000000;
     background-color: #ffffff;
     padding-top: 100px;
-    font: "Helvetica";
 }
 .footer{
     padding-top: 200px;
 }
 /*trying to style the links but not working. Please check*/
-a{
-    outline-color: #ffd700;
-}
 
-.a:hover{
-    color:#101d2a;
-}
+
 .hr{
   color: #101d2a;
   background-color: #101d2a;
@@ -49,9 +41,10 @@ a{
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
 
+
 .intro-section {
     height: 100%;
-    padding-top: 0px;
+    padding-top: 75px;
     text-align: center;
     background: #ffffff;
 }

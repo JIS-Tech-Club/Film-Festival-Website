@@ -22,9 +22,14 @@ img {
 .col-lg-4{
   text-align: center;
 }
+
 a{
-  text-decoration:none;
-  color: #000000;
+  text-decoration: none;
+  color: #101d2a;
+}
+a:hover{
+  text-decoration: none;
+  color: #ffd700;
 }
 
 hr{
@@ -39,8 +44,26 @@ body {
 
 }
 
-h2,h4{
+p,h1,h2,h3,h4,h5,h6{
+  font: "Helvetica  ";
+}
+h1{
+  font-size: 30px;
   color: #000000;
+}
+
+h2{
+  font-size: 25px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+h4{
+  font-size: 15px;
+  color: #101d2a;
+  font-style: italic;
 }
 
 .section-header{
