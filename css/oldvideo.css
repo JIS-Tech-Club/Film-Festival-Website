@@ -1,0 +1,9 @@
+.jumbotron {
+background-color: #101d2a;
+color:#fecd08;
+margin-bottom: 10px;
+}
+.container .row iframe {
+margin-left: auto;
+margin-right: auto;
+}
