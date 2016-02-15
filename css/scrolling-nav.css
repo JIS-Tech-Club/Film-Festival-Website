@@ -29,7 +29,6 @@ footer{
 .footer{
     padding-top: 200px;
 }
-/*trying to style the links but not working. Please check*/
 
 
 .hr{
@@ -41,7 +40,6 @@ footer{
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
 
-
 .intro-section {
     height: 100%;
     padding-top: 75px;
@@ -50,6 +48,21 @@ of those sections to manage the look and feel of the site. */
 }
 
 .about-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.genres-section {
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.judges-section {
     height: 100%;
     padding-top: 100px;
     text-align: center;
@@ -85,6 +98,30 @@ of those sections to manage the look and feel of the site. */
   text-align: center;
   letter-spacing: 5px;
 }
+
+
+/*.navbar .navbar-nav{
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.nav .navbar-brand{
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar-inverse{
+    display: inline-block;
+    float: none;
+}*/
+
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus,
